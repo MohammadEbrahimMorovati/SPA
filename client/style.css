@@ -131,3 +131,157 @@ body {
   transform: rotate(180deg);
   margin-right: 10px;
 }
+
+
+
+/* dashboard */
+
+.dashboard-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.dashboard-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.03);
+}
+
+.dashboard-card h2 {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.dashboard-card p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.card-users {
+  border-left: 5px solid #f87171; /* red */
+}
+
+.card-posts {
+  border-left: 5px solid #f59e0b; /* orange */
+}
+
+.card-revenue {
+  border-left: 5px solid #10b981; /* green */
+}
+
+.dashboard-box {
+  background: #fff;
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.dashboard-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.dashboard-box ul {
+  list-style: none;
+  padding: 0;
+  color: #444;
+}
+
+.dashboard-box li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+.page-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: scale(1.01);
+}
+
+.post-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: #f97316;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+.product-card h2 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #4f46e5;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #16a34a;
+  font-weight: bold;
+}
